@@ -12,12 +12,6 @@ const Home = () => {
         <Button onPress={() => navigation.navigate('NumberOne')}>
           <Text>1. Validate CNPJ</Text>
         </Button>
-        <Button onPress={() => navigation.navigate('NumberTwo')}>
-          <Text>2. Test rectangles intersect</Text>
-        </Button>
-        <Button onPress={() => navigation.navigate('NumberThree')}>
-          <Text>3. Compute intersection</Text>
-        </Button>
         <Button onPress={() => navigation.navigate('NumberFour')}>
           <Text>4. Simple Todo List</Text>
         </Button>
