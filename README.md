@@ -1,5 +1,5 @@
 # kaffa-test
-## Exercises 1 - 5
+## Exercises 1,4 and 5
 
 Requirements
 
