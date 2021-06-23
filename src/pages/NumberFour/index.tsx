@@ -43,9 +43,15 @@ const NumberFour: React.FC = () => {
   }, [list]);
 
   const addItem = (description: string) => {
-    const newItem = { id: uuid.v4(), description };
+    const exist = list.find(e => e.description === description);
 
-    setList([newItem, ...list]);
+    if (exist) {
+      Alert.alert('Error', 'Item already on list');
+    } else {
+      const newItem = { id: uuid.v4(), description };
+
+      setList([newItem, ...list]);
+    }
   };
 
   const removeItem = async (id: string) => {

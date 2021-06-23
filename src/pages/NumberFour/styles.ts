@@ -4,7 +4,6 @@ export const Container = styled.View`
   flex: 1;
 
   justify-content: center;
-  /* align-items: center; */
 `;
 
 export const View = styled.View`
@@ -51,9 +50,12 @@ export const Row = styled.View`
 `;
 
 export const Item = styled.View`
-  width: 200px;
-  height: 30px;
+  width: 150px;
+  height: 40px;
   margin: 10px;
+
+  justify-content: center;
+  padding-left: 10px;
 
   background-color: #eee;
   border: 1px solid #3f3f3f;
@@ -70,4 +72,5 @@ export const ButtonDelete = styled.TouchableOpacity`
 
   justify-content: center;
   align-items: center;
+  margin: 3px;
 `;
