@@ -18,3 +18,9 @@ Steps
 ## Exercise 7
 
 ![](src/NumberSeven/Diagram.png)
+
+## Exercise 8
+
+![](src/NumberEight/screen1.png)
+![](src/NumberEight/screen2.png)
+![](src/NumberEight/screen3.png)
