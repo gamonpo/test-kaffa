@@ -5,8 +5,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Home from '../pages/Home';
 import NumberOne from '../pages/NumberOne';
-import NumberTwo from '../pages/NumberTwo';
-import NumberThree from '../pages/NumberThree';
 import NumberFour from '../pages/NumberFour';
 import NumberFive from '../pages/NumberFive';
 
@@ -31,27 +29,6 @@ const AppRoutes: React.FC = () => {
           component={NumberOne}
           options={{
             title: '1. Validate CNPJ',
-            headerTitleStyle: {
-              fontSize: 15,
-            },
-          }}
-        />
-        <Stack.Screen
-          name="NumberTwo"
-          component={NumberTwo}
-          options={{
-            title: '2. Test retancles intersect',
-            headerTitleAllowFontScaling: true,
-            headerTitleStyle: {
-              fontSize: 15,
-            },
-          }}
-        />
-        <Stack.Screen
-          name="NumberThree"
-          component={NumberThree}
-          options={{
-            title: '3. Compute intersection',
             headerTitleStyle: {
               fontSize: 15,
             },
